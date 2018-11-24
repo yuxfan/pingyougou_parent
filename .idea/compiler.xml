@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pinyougou_common" />
+        <module name="pinyougou_dao" />
+        <module name="pinyougou_interface" />
+        <module name="pinyougou_pojo" />
+        <module name="pinyougou_service_buyer" />
+        <module name="pinyougou_service_page" />
+        <module name="pinyougou_service_pay" />
+        <module name="pinyougou_service_search" />
+        <module name="pinyougou_service_seckill" />
+        <module name="pinyougou_service_sellergoods" />
+        <module name="pinyougou_service_sms" />
+        <module name="pinyougou_service_user" />
+        <module name="pinyougou_web_manager" />
+        <module name="pinyougou_web_portal" />
+        <module name="pinyougou_web_seckill" />
+        <module name="pinyougou_web_shop" />
+        <module name="pinyougou_web_user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pinyougou_service_wxpay" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
